@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="Mapper.EmployMapper">
-    <select id="selectAll" resultType="pojo.Employ">
-        select * from employ
+    <select id="findByName" resultType="pojo.Employ">
+        select * from employ where cname like '%张%' and gender = '男';
     </select>
+    <insert id="add" parameterType="pojo.Employ">
+        insert into employ values (#{cid},#{cname},#{gender});
+    </insert>
+    <delete id="delete" parameterType="int">
+        delete from employ where cid = #{id};
+    </delete>
+    <update id="update">
+        update employ set cname = "asdasdw" where cid = 100
+    </update>
 </mapper>

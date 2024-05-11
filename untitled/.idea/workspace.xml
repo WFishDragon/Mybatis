@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccb846ab-a16d-490d-b115-24defb295a79" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Mapper/EmployMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pojo/Employ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Mapper/EmployMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+    <list default="true" id="ccb846ab-a16d-490d-b115-24defb295a79" name="变更" comment="输出employ表的全部内容">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Mapper/EmployMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Mapper/EmployMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Mapper/EmployMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Mapper/EmployMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Mapper/EmployMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Mapper/EmployMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Mapper/EmployMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Mapper/EmployMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,8 +82,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715444612485</updated>
-      <workItem from="1715444613845" duration="1922000" />
+      <workItem from="1715444613845" duration="5699000" />
     </task>
+    <task id="LOCAL-00001" summary="输出employ表的全部内容">
+      <created>1715446688992</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715446688992</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,5 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="输出employ表的全部内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="输出employ表的全部内容" />
   </component>
 </project>
